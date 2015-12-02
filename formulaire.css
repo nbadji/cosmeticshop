@@ -1,0 +1,21 @@
+li {
+    list-style: none;
+    color: saddlebrown;
+    font-family: serif;
+
+    text-align: justify;
+
+
+}
+h2 {
+    color: saddlebrown;
+    font-family: serif;
+}
+h3 {
+    color: black;
+    font-family: serif;
+}
+table {
+    color: saddlebrown;
+    font-family: serif;
+}
