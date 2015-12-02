@@ -1,0 +1,79 @@
+<html>
+<head  lang="en">
+    <title> Formulaire </title>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="formulaire.css" />
+</head>
+<body>
+<script src="formulaire.js"></script>
+<h2>COSMETIC SHOP</h2>
+
+<form name="formulaire" action="" method="post" onSubmit="return verif_formulaire()">
+    <fieldset>
+<pre>
+    <h3>Informations personnelles</h3>
+ <li><label>Nom*:     <input type="text" size="20" name="nom"></label></li>
+   <li><label> Prenom*:     <input type="text" size="20" name="Prenom"></label></li>
+<li><label>Lieu de Résidence*:  <input type="text" size="20" name="lieu"></label></li>
+<li><label>Courriel*:   <input type="text" size="20" name="courriel"></label></li>
+<li><label>Age*:<input type="text" size="20" name="age"></label></li>
+<li><label>Telephone:  <input type="text" size="20" name="tel"></label></li>
+    <li>Pays
+        <select name="maselectbox" id="select01">
+            <!-- Ceci est un groupe d options -->
+            <optgroup label="Canada">
+                <option>Montreal</option>
+                <option>Senegal</option>
+                <option>France</option>
+                <option>Maroc</option>
+                <option>Algerie</option>
+                <option>Suisse</option>
+                <option>Mali</option>
+                <option>Mauritanie/option>
+                <option>Chine</option>
+                <option>Japon</option>
+                <option>Angleterre</option>
+            </optgroup>
+        </select>
+    </li>
+
+    <li><label>Code postal   <input type="text" size="20" name="tel"></label></li>
+    <li><label>Appartement <input type="text" size="20" name="tel"></label></li>
+
+</pre>
+    </fieldset>
+    <fieldset>
+        <h3 class="choice"> Mode de paiement</h3>
+        <!-- Ceci est une liste non ordonnee -->
+        <ul>
+            <li><label>
+                <input type="radio" name="abc" id="radio01" /> Paiement par carte de credit</label></li>
+            <li>
+                <input type="radio" name="abc" checked="checked" id="radio02" /> Paiement par Paypal</li>
+            <li>
+                <input type="radio" name="abc" id="radio03" /> Paiement par cheque</li>
+            <li>
+                <input type="radio" name="abc" id="radio001" /> Paiement par virement bancaire</li>
+            <li>
+                <input type="radio" name="abc" id="radio00" /> Paiement par Fax</li>
+
+        </ul>
+    </fieldset>
+    <div>
+        <h4 class="recap"> Recapitulatif de la commande</h4>
+</form>
+<table>  <tr> <td>Fond de teint x1</td></tr>
+    <tr> <!-- 2e ligne, etc. --> <td> <img src="images.jpg" alt="photo de fond de teint" /> </tr> <tr> <td>Sous-total</td> <td>50 dollars</td></tr>
+    <tr> <td>Taxes</td> <td> 0 dollar</td></tr>
+    <tr> <td>Total</td> <td> 50 dollars</td></tr>
+    <tr> <td>Payement due</td> <td> 50 dollars</td></tr>
+</table>
+</div>
+<span>
+<li><label >
+    <a href="go.html"><input type="submit" id="bouton1" value="Envoyer"></a>
+    <input type="reset" id="bouton2"  value="Reinitialiser"></label></li>
+</span>
+</body>
+</html>
