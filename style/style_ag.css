@@ -1,0 +1,105 @@
+* {
+    list-style-type:none;
+    margin-left: 0;
+}
+
+body {
+    background-color: cornsilk;
+}
+
+#header_logo_ag{
+    display: inline-block;
+    background-color: cornsilk;
+    float: left;
+    padding: 30px;
+    margin-top: 0;
+    margin-left: 0;
+    color: peru;
+}
+
+#header_1_ag{
+    background-color: black;
+    color: white;
+    margin-right: 30px;
+    margin-top: 50px;
+    float: right;
+}
+
+.haut_ag {
+    display: inline-block;
+    margin-right: 170px;
+    margin-left: 30px;
+}
+#header_2_ag{
+    background-color: cornsilk;
+    margin-top: 50px;
+    display: inline-block;
+    /* margin-left: 5%;*/
+}
+
+.produits_ag {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: inherit;
+}
+
+#wrapper_ag {
+    text-align: center;
+    background-color: cornsilk;
+}
+
+
+#footer_ag {
+    margin: 0;
+    display : inline-block;
+    background-color: cornsilk;
+    /* height: inherit;*/
+
+}
+
+#categorie_ag {
+    display : inline-block;
+
+}
+#information_ag {
+    display : inline-block;
+    margin-left: 150px;
+    /*margin-left: ;*/
+}
+#compte_ag {
+    display: inline-block;
+    margin-left: 150px;
+    /*   margin-left: ;*/
+}
+
+p {
+    margin-left: 40px;
+}
+
+h1 {
+    margin-left: 40px;
+}
+
+h2 {
+    color: peru;
+}
+
+h3 {
+    margin-left: 40px;
+    color: peru;
+    display : inline-block;
+}
+p {
+    margin-right: 30px;
+}
+a:hover {
+    color: blueviolet;
+}
+
+a:visited {
+    color: saddlebrown;
+}
+
+a:active {
+    color: hotpink;
+}
