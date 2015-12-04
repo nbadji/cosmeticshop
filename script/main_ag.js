@@ -4,15 +4,6 @@
 
 "use strict";
 
-function colorer_decolorer() {
-    this.classList.toggle("survole"); // Inverse la classe survole
-}
-var les_listes = document.querySelectorAll("li");
-
-for (var i = 0; i <= les_listes.length; i++) {
-    les_listes[i].addEventListener("mouseover" , colorer_decolorer);
-    les_listes[i].addEventListener("mouseout" , colorer_decolorer);
-}
 
 var caroussel = null; // Element contenant le caroussel
 var caroussel_items = null; // Elements individuels (les li) do caroussel
@@ -47,7 +38,7 @@ function cacher_elem(elem) {
 document.addEventListener('DOMContentLoaded', function () {
     caroussel = document.getElementsByClassName('caroussel')[0];
     console.log(caroussel);
-    caroussel_items = caroussel.getElementsByTagName('li');
+    caroussel_items = caroussel.getElementsByClassName('img_caroussel');
     console.log(caroussel_items);
     for (var i = 0 ; i < caroussel_items.length ; i++) {
         $(caroussel_items[i]).fadeOut();
@@ -95,5 +86,16 @@ function changer_img(sens){
     var nb_items = caroussel_items.length;
     indice_courant = (indice_courant + nb_items + (sens == sens_avant ? 1 : -1)) % nb_items;
     montrer_elem(caroussel_items[indice_courant]);
-    timer = setTimeout(function(){changer_img(sens)}, duree_transition +  duree_affichage);
+    timer = setTimeout(function(){changer_img(sens)}, duree_transition + duree_affichage);
+}
+
+
+function colorer_decolorer() {
+    this.classList.toggle("survole"); // Inverse la classe survole
+}
+var les_listes = document.querySelectorAll("li");
+
+for (var i = 0; i <= les_listes.length; i++) {
+    les_listes[i].addEventListener("mouseover" , colorer_decolorer);
+    les_listes[i].addEventListener("mouseout" , colorer_decolorer);
 }
