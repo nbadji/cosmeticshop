@@ -1,9 +1,7 @@
 /**
  * Created by agarand on 2015-12-04.
  */
-/**
- * Created by nbadji on 2015-11-27.
- */
+
 "use strict";
 
 function colorer_decolorer() {
