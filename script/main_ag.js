@@ -30,6 +30,7 @@ function cacher_elem(elem) {
     elem.classList.remove('actif');
     // Le cacher progressivement
     $(elem).fadeOut(duree_transition);
+
 }
 
 /**
