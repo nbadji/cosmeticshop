@@ -8,7 +8,7 @@
 var caroussel = null; // Element contenant le caroussel
 var caroussel_items = null; // Elements individuels (les li) do caroussel
 
-var duree_transition = 1000; // 1 seconde
+var duree_transition = 1100; // 1 seconde
 var duree_affichage = 4000; // 4 secondes
 var timer = null; // Le timer des setTimeout;
 
