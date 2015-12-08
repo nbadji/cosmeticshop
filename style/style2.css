@@ -1,3 +1,113 @@
-div{
-text-align: center;
+
+.inner {
+
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    position: relative;
+}
+
+li {
+    list-style: none;
+}
+
+.miniature_un {
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    left: 550px;
+    top: 370px;
+
+    margin: 20px;
+    margin-top: 80px;
+
+}
+
+.miniature_deux {
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    left: 600px;
+    top: 420px;
+    margin: 40px;
+}
+
+.max {
+    position: absolute;
+    left: 45%;
+    top: 60px;
+}
+
+.maxi {
+    width: 295px;
+    height: 600px;
+    position: absolute;
+    left: 45%;
+    top: 100px;
+}
+
+img {
+    width: 450px;
+    height: 450px;
+    margin-top: -40px;
+    margin-right: 800px;
+}
+
+#un:target {
+    display: block;
+    opacity: 5;
+
+    margin-right: 10px;
+    float: right;
+    overflow: hidden;
+    z-index: 600;
+    transform: translateZ(0px);
+    zoom: 1;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: crosshair;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 10px;
+
+}
+
+#deux:target {
+    display: block;
+    margin-right: 10px;
+    float: right;
+    overflow: hidden;
+    z-index: 600;
+    transform: translateZ(0px);
+    opacity: 5;
+    zoom: 1;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: crosshair;
+    position: absolute;
+    background-repeat: no-repeat;
+
+}
+
+h1, h2, h3 {
+    font-family: cursive;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+#les_renseignement {
+    float: left;
+    display: block;
+    width: 400px;
+    margin-left: 50px;
+
+}
+
+p {
+    width: 400px;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+.soumettre {
+    background-color: #808080;
 }

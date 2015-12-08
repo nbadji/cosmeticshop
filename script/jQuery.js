@@ -1,3 +1,1 @@
-/**
- * Created by nbadji on 2015-12-02.
- */jQuery;
+/** * Created by nbadji on 2015-12-02. */jQuery;"use strict";$(document).ready(function(){    $('#p7').click(function(){        $(this).hide();        console.log("page chargee")    });});$("#product1").hidePopup();
