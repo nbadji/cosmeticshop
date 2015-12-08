@@ -10,7 +10,6 @@ function click_img7() {
 
 }
 
-
 function colorer() {
     this.classList.add("survole"); // Ajouter la classe survole
 }
